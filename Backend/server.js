@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to the Waitlist API!");
 });
 
-// Routes
+// Routes   
 app.use("/api/waitlist", waitlistRoutes);
 
 // MongoDB Connection
