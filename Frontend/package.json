@@ -28,7 +28,6 @@
     "vite": "^5.4.10",
     "@types/bun": "latest"
   },
-  "module": "index.ts",
   "peerDependencies": {
     "typescript": "^5.0.0"
   }
