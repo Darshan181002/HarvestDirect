@@ -26,7 +26,7 @@ function WaitlistForm() {
     try {
       // Send data to the backend API
       await axios.post(
-        "https://harvest-direct-backend.vercel.app//api/waitlist",
+        "https://harvest-direct-backend.vercel.app/api/waitlist",
         formData
       );
 
