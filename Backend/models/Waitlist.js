@@ -18,4 +18,4 @@ const waitlistSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("Waitlist", waitlistSchema);
+module.exports = mongoose.model("waitlist", waitlistSchema);
