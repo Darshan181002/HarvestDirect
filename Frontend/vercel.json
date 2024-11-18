@@ -6,6 +6,6 @@
     }
   ],
   "build": {
-    "outputDirectory": "dist"
+    "outputDirectory": "build"
   }
 }
