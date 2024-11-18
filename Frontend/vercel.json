@@ -6,7 +6,6 @@
     }
   ],
   "build": {
-    "command": "npm run build",
     "outputDirectory": "dist"
   }
 }
