@@ -9,11 +9,25 @@ function WaitlistForm() {
   const [formData, setFormData] = useState({
     restaurantName: "",
     email: "",
+    number: "",
     location: "",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+
+    // Phone number validation
+    if (name === "number") {
+      const phoneRegex = /^[0-9]{0,10}$/;
+      if (!phoneRegex.test(value)) {
+        toast.error("Please enter a valid phone number.", {
+          position: "top-right",
+          autoClose: 1000,
+        });
+        return;
+      }
+    }
+
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
@@ -33,18 +47,18 @@ function WaitlistForm() {
       // Show success toast
       toast.success("Thank you for joining the waitlist!", {
         position: "top-right",
-        autoClose: 3000,
+        autoClose: 2000,
       });
 
       // Reset the form
-      setFormData({ restaurantName: "", email: "", location: "" });
+      setFormData({ restaurantName: "", email: "", number: "", location: "" });
     } catch (error) {
       console.error("Error submitting form:", error);
 
       // Show error toast
       toast.error("There was an error submitting the form. Please try again.", {
         position: "top-right",
-        autoClose: 3000,
+        autoClose: 2000,
       });
     }
   };
@@ -83,6 +97,19 @@ function WaitlistForm() {
               name="email"
               value={formData.email}
               onChange={handleChange}
+              required
+              className="input"
+            />
+          </label>
+
+          <label className="label">
+            Contact Number:
+            <input
+              type="tel"
+              name="number"
+              value={formData.number}
+              onChange={handleChange}
+              minLength={10}
               required
               className="input"
             />

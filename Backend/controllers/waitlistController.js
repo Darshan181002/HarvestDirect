@@ -4,16 +4,16 @@ const Waitlist = require("../models/Waitlist");
 exports.addWaitlistEntry = async (req, res) => {
   try {
     console.log("Received data:", req.body); // Log received request data
-    const { restaurantName, email, location } = req.body;
+    const { restaurantName, email, number, location } = req.body;
 
     // Ensure required fields are present
-    if (!restaurantName || !email) {
+    if (!restaurantName || !email || !number) {
       return res
         .status(400)
-        .json({ error: "restaurantName and email are required" });
+        .json({ error: "restaurantName email and number are required" });
     }
 
-    const newEntry = new Waitlist({ restaurantName, email, location });
+    const newEntry = new Waitlist({ restaurantName, email, number, location });
     await newEntry.save();
     res.status(201).json({ message: "Waitlist entry added successfully" });
   } catch (error) {

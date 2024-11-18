@@ -9,6 +9,10 @@ const waitlistSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  number: {
+    type: String,
+    required: true,
+  },
   location: {
     type: String,
   },
