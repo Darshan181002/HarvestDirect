@@ -1,0 +1,163 @@
+.contact-page {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-header {
+  background-color: #f8f9fa;
+  padding: 120px 40px 80px;
+  text-align: center;
+}
+
+.contact-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2E7D32;
+  margin-bottom: 24px;
+}
+
+.contact-intro {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info-section {
+  padding: 80px 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.info-item h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.info-item p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.info-item .info-note {
+  font-size: 15px;
+  color: #666;
+  margin-top: 12px;
+}
+
+.join-section {
+  background-color: #f8f9fa;
+  padding: 100px 40px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.join-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.join-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.waitlist-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.waitlist-button:hover {
+  background-color: #f4511e;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(255, 87, 34, 0.2);
+}
+
+@media (max-width: 1200px) {
+  .contact-info-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 60px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-header {
+    padding: 80px 20px 60px;
+  }
+
+  .contact-header h1 {
+    font-size: 36px;
+  }
+
+  .contact-intro {
+    font-size: 18px;
+  }
+
+  .contact-info-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .info-item h2 {
+    font-size: 20px;
+  }
+
+  .join-section {
+    padding: 60px 20px;
+  }
+
+  .join-section h2 {
+    font-size: 28px;
+  }
+
+  .join-section p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-header {
+    padding: 60px 20px 40px;
+  }
+
+  .contact-header h1 {
+    font-size: 32px;
+  }
+
+  .contact-info-section {
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .waitlist-button {
+    width: 100%;
+    max-width: 300px;
+  }
+} 
