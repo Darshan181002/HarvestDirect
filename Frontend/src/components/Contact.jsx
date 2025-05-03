@@ -26,7 +26,7 @@ function Contact() {
 
         <div className="info-item">
           <h2>📧 Email</h2>
-          <p>workwithdarshannn@gmail.com</p>
+          <p>harvestdirect.in@gmail.com</p>
           <p className="info-note">We typically respond within 24 hours</p>
         </div>
 
