@@ -230,7 +230,7 @@ function LandingPage() {
             <a href="https://www.instagram.com/harvestdirect.co_india/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/harvest-direct-india/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <i className="fab fa-linkedin"></i>
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
