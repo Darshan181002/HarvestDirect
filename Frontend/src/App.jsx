@@ -227,7 +227,7 @@ function LandingPage() {
             <Link to="/terms">Terms & Conditions</Link>
           </div>
           <div className="social-links">
-            <a href="https://www.instagram.com/harvestdirect.co_india/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/harvestdirect.in/?utm_source=ig_web_button_share_sheet" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <i className="fab fa-instagram"></i>
             </a>
             <a href="https://www.linkedin.com/company/harvest-direct-india/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
