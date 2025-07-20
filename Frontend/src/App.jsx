@@ -105,7 +105,7 @@ function LandingPage() {
 
       <section className="hero-section">
         <div className="hero-content">
-          <h1 className="hero-title">Revolutionize Your Kitchen Supply Chain</h1>
+          <h1 className="hero-title">Rrevolutionize Your Kitchen Supply Chain</h1>
           <p className="hero-subtitle">
             Get Priority Access to Harvest Direct — Mumbai's Smartest B2B Food Supply Platform
           </p>
