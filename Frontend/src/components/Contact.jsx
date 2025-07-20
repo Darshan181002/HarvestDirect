@@ -56,6 +56,7 @@ import React from 'react';
 import { Helmet } from "react-helmet-async";
 import '../styles/Contact.css';
 
+
 function Contact() {
   return (
     <>
@@ -80,7 +81,6 @@ function Contact() {
               Borivali West, Mumbai, Maharashtra, India
             </address>
           </div>
-          
 
           <div className="info-item">
             <h3>📞 Phone</h3>
@@ -107,7 +107,6 @@ function Contact() {
           </div>
         </div>
 
-<<<<<<< HEAD
         <div className="join-section">
           <h2>Join Our Network</h2>
           <p>
@@ -116,26 +115,10 @@ function Contact() {
           <button onClick={() => window.location.href = '/'} className="waitlist-button">
             Join the Waitlist
           </button>
-=======
-        <div className="info-item">
-          <h2>📧 Email</h2>
-          <p>harvestdirect.in@gmail.com</p>
-          <p className="info-note">We typically respond within 24 hours</p>
-        </div>
-
-        <div className="info-item">
-          <h2>💬 WhatsApp Business</h2>
-          <p>+91-XXXXXXXXXX</p>
-          <p className="info-note">Quick responses during business hours</p>
->>>>>>> 74b2e5078fe370d8962ba29bbd81f287eb733fd7
         </div>
       </div>
     </>
   );
 }
 
-<<<<<<< HEAD
 export default Contact;
-=======
-export default Contact; 
->>>>>>> 74b2e5078fe370d8962ba29bbd81f287eb733fd7
