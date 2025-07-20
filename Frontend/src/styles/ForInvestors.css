@@ -1,0 +1,1078 @@
+/* Navigation - Matching Home Page Style */
+.investors-nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 20px 6%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.investors-nav .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.investors-nav .nav-brand a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+}
+
+.investors-nav .nav-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.investors-nav .nav-text {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2E7D32;
+  letter-spacing: -0.02em;
+}
+
+.nav-back-link {
+  background-color: #ff5722;
+  color: white;
+  padding: 18px 36px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-back-link:hover {
+  background-color: #f4511e;
+  transform: translateY(-2px);
+}
+
+/* Hero Section - Matching Home Page Style */
+.investors-header {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 6%;
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.investors-header-content {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.investors-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #2E7D32;
+  margin-bottom: 28px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.investors-subtitle {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main Content - Matching Home Page Structure */
+.investors-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+/* Documents Section - Styled like Features Section */
+.documents-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin: 0 -6%;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Documents Grid - Styled like Features Grid */
+.documents-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+.document-card {
+  background: white;
+  padding: 32px;
+  border-radius: 8px;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.document-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.document-icon {
+  font-size: 24px;
+  color: #2E7D32;
+  margin-bottom: 8px;
+}
+
+.document-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.document-description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+.document-meta {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.document-category {
+  background: #e8f5e9;
+  color: #2E7D32;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.document-size {
+  color: #999;
+  font-size: 14px;
+}
+
+.download-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.download-button:hover {
+  background-color: #f4511e;
+  transform: translateY(-2px);
+}
+
+.download-icon {
+  font-size: 16px;
+}
+
+.download-count {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #2E7D32;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Contact Section - Styled like Ready Section */
+.contact-section {
+  text-align: center;
+  padding: 120px 0;
+  background-color: white;
+  margin: 0 -6%;
+}
+
+.contact-section .section-title {
+  margin-bottom: 16px;
+}
+
+.contact-section .section-subtitle {
+  margin-bottom: 60px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 32px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+  font-size: 24px;
+  color: #2E7D32;
+}
+
+.contact-details h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Footer - Matching Home Page Footer */
+.investors-footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 40px 6%;
+  color: #666;
+  font-size: 14px;
+  border-top: 1px solid #eee;
+}
+
+.investors-footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.investors-footer .footer-copyright {
+  color: #666;
+}
+
+.investors-footer .footer-links {
+  display: flex;
+  gap: 32px;
+}
+
+.investors-footer .footer-links a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.investors-footer .footer-links a:hover {
+  color: #2E7D32;
+}
+
+/* Responsive Design - Matching Home Page Breakpoints */
+@media (max-width: 1400px) {
+  .investors-header {
+    min-height: 7vh;
+    padding: 50px 6%;
+  }
+  
+  .investors-title {
+    font-size: 52px;
+  }
+  
+  .documents-section {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .investors-title {
+    font-size: 48px;
+  }
+  
+  .documents-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+  
+  .contact-info {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .investors-header {
+    min-height: auto;
+    padding: 40px 6%;
+  }
+  
+  .investors-title {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+  
+  .investors-subtitle {
+    font-size: 18px;
+  }
+  
+  .documents-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .contact-info {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .investors-title {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  
+  .section-title {
+    font-size: 32px;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .documents-section {
+    padding: 60px 0;
+  }
+  
+  .documents-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .document-card {
+    padding: 28px;
+  }
+  
+  .contact-item {
+    padding: 28px;
+  }
+  
+  .investors-nav {
+    padding: 16px 6%;
+  }
+  
+  .investors-nav .nav-text {
+    font-size: 28px;
+  }
+  
+  .nav-back-link {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  
+  .contact-section {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .investors-title {
+    font-size: 36px;
+    font-weight: 800;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .document-card {
+    padding: 24px;
+  }
+  
+  .contact-item {
+    padding: 24px;
+  }
+  
+  .investors-nav .nav-text {
+    font-size: 24px;
+  }
+  
+  .documents-section {
+    padding: 50px 0;
+  }
+  
+  .contact-section {
+    padding: 60px 0;
+  }
+}
+
+/* Special hover effects for better interactivity */
+.document-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #2E7D32, #4CAF50);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.document-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.document-card:hover::before {
+  transform: scaleX(1);
+}
+
+/* Add subtle animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.document-card {
+  animation: fadeInUp 0.6s ease-out;
+} */
+
+/* STUNNING ForInvestors.css - Inspired by Landing Page Design */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.investors-container {
+  min-height: 100vh;
+  background: white;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Navigation - Matching Home Page Style */
+.investors-nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 20px 6%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.investors-nav .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.investors-nav .nav-brand a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+}
+
+.investors-nav .nav-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.investors-nav .nav-text {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2E7D32;
+  letter-spacing: -0.02em;
+}
+
+.nav-back-link {
+  background-color: #ff5722;
+  color: white;
+  padding: 18px 36px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-back-link:hover {
+  background-color: #f4511e;
+  transform: translateY(-2px);
+}
+
+/* Hero Section - Compact and Professional */
+.investors-header {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 6%;
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.investors-header-content {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.investors-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #2E7D32;
+  margin-bottom: 28px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.investors-subtitle {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main Content - Matching Home Page Structure */
+.investors-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+/* Documents Section - Styled like Features Section */
+.documents-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin: 0 -6%;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Documents Grid - Styled like Features Grid */
+.documents-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+.document-card {
+  background: white;
+  padding: 32px;
+  border-radius: 8px;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.document-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.document-icon {
+  font-size: 24px;
+  color: #2E7D32;
+  margin-bottom: 8px;
+}
+
+.document-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.document-description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+.document-meta {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.document-category {
+  background: #e8f5e9;
+  color: #2E7D32;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.document-size {
+  color: #999;
+  font-size: 14px;
+}
+
+.download-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.download-button:hover {
+  background-color: #f4511e;
+  transform: translateY(-2px);
+}
+
+.download-icon {
+  font-size: 16px;
+}
+
+.download-count {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #2E7D32;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Contact Section - Styled like Ready Section */
+.contact-section {
+  text-align: center;
+  padding: 120px 0;
+  background-color: white;
+  margin: 0 -6%;
+}
+
+.contact-section .section-title {
+  margin-bottom: 16px;
+}
+
+.contact-section .section-subtitle {
+  margin-bottom: 60px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 32px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+  font-size: 24px;
+  color: #2E7D32;
+}
+
+.contact-details h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Footer - Matching Home Page Footer */
+.investors-footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 40px 6%;
+  color: #666;
+  font-size: 14px;
+  border-top: 1px solid #eee;
+}
+
+.investors-footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.investors-footer .footer-copyright {
+  color: #666;
+}
+
+.investors-footer .footer-links {
+  display: flex;
+  gap: 32px;
+}
+
+.investors-footer .footer-links a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.investors-footer .footer-links a:hover {
+  color: #2E7D32;
+}
+
+/* Responsive Design - Matching Home Page Breakpoints */
+@media (max-width: 1400px) {
+  .investors-header {
+    min-height: 35vh;
+    padding: 30px 6%;
+  }
+  
+  .investors-title {
+    font-size: 52px;
+  }
+  
+  .documents-section {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .investors-title {
+    font-size: 48px;
+  }
+  
+  .documents-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+  
+  .contact-info {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .investors-header {
+    min-height: auto;
+    padding: 30px 6%;
+  }
+  
+  .investors-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .investors-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .documents-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .contact-info {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .investors-header {
+    min-height: auto;
+    padding: 25px 6%;
+  }
+  
+  .investors-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  
+  .investors-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 32px;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .documents-section {
+    padding: 60px 0;
+  }
+  
+  .documents-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .document-card {
+    padding: 28px;
+  }
+  
+  .contact-item {
+    padding: 28px;
+  }
+  
+  .investors-nav {
+    padding: 16px 6%;
+  }
+  
+  .investors-nav .nav-text {
+    font-size: 28px;
+  }
+  
+  .nav-back-link {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  
+  .contact-section {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .investors-title {
+    font-size: 36px;
+    font-weight: 800;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .document-card {
+    padding: 24px;
+  }
+  
+  .contact-item {
+    padding: 24px;
+  }
+  
+  .investors-nav .nav-text {
+    font-size: 24px;
+  }
+  
+  .documents-section {
+    padding: 50px 0;
+  }
+  
+  .contact-section {
+    padding: 60px 0;
+  }
+}
+
+/* Special hover effects for better interactivity */
+.document-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #2E7D32, #4CAF50);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.document-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.document-card:hover::before {
+  transform: scaleX(1);
+}
+
+/* Add subtle animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.document-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+
+.document-card:nth-child(1) { animation-delay: 0.1s; }
+.document-card:nth-child(2) { animation-delay: 0.2s; }
+.document-card:nth-child(3) { animation-delay: 0.3s; }
+.document-card:nth-child(4) { animation-delay: 0.4s; }
+.document-card:nth-child(5) { animation-delay: 0.5s; }
