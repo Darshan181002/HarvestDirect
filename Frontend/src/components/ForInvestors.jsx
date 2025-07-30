@@ -6,8 +6,8 @@ import logoOnly from '../assets/logo-only.png';
 
 const ForInvestors = () => {
   const [downloadCount, setDownloadCount] = useState({});
-  const availableDocuments = [];
-  // 1, 2, 3, 4, 5, 6
+  const availableDocuments = [1, 2];
+  //3, 4, 5, 6
   const documents = [
     {
       id: 1,
